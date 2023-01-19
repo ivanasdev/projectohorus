@@ -1,0 +1,155 @@
+/*App.js*/
+
+
+body{
+  background-image: url("./components/assets/img/h3.png");
+  
+  backdrop-filter: blur(19px) saturate(135%);
+  -webkit-backdrop-filter: blur(39px) saturate(475%);
+  background-color: rgba(169, 169, 211, 0);
+
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.App {
+  text-align: center;
+
+}
+
+
+.Card1{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+.form-label{
+
+  backdrop-filter: blur(19px) saturate(175%);
+  -webkit-backdrop-filter: blur(19px) saturate(175%);
+  background-color: rgba(169, 169, 211, 0);
+  border-radius: 12px;
+  color: antiquewhite;
+  border-radius: 12px;
+  font-size: 30px;
+  padding: 9px;
+  margin: 12px;
+}
+.form-label:hover{
+
+  font-size: 30px;
+  padding: 9px;
+  margin: 12px;
+
+}
+.tit1{
+  margin: 9px;
+
+}
+.title{
+  margin: 9px;
+  font-size: 40px;
+  color: #ffffff;
+
+
+
+}
+
+.inpt1{
+  margin-top: 9px;
+
+  
+  color: antiquewhite;
+  background-color: rgba(255, 255, 255, 0.13);
+
+  box-shadow: 0 0 0 0 rgba(#5a99d4, .5);
+  border-radius: 9px;
+}
+
+.inpt1:hover{
+  animation: pulse 1.5s; /* Animate for 1.5 seconds on hover */
+  background-color: aliceblue;
+  border-color:rgba(248, 0, 83, 0.884);
+
+}
+
+.inpt{
+ 
+  backdrop-filter: blur(19px) saturate(725%);
+  -webkit-backdrop-filter: blur(19px) saturate(175%);
+  background-color: rgba(169, 169, 211, 0);
+
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  margin-top: 6px;
+  font-size: 30px;
+  color: aliceblue;
+
+}
+.inpt:hover{
+ 
+  backdrop-filter: blur(19px) saturate(725%);
+  -webkit-backdrop-filter: blur(19px) saturate(175%);
+  background-color: rgba(169, 211, 209, 0.664);
+
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  color: white;
+
+}
+
+
+
+/*Login.js*/
+.btn1 {
+margin-top: 20px;
+margin-bottom: 20px;
+width: 200px;
+height:50px ;
+color: antiquewhite;
+background-color: rgba(4, 205, 255, 0.055);
+box-shadow: 0 0 0 0 rgba(#ff049f, .5);
+}
+.btn1:hover {
+animation: pulse 1.5s; /* Animate for 1.5 seconds on hover */
+background-color: rgba(226, 221, 223, 0.178);
+border-color:rgba(0, 219, 248, 0.884);
+color: rgb(255, 255, 255);
+border-style:hidden;
+}
+
+
+
+.bb2{
+  margin-top: 18px;
+
+}
+.btn2 {
+  color: antiquewhite;
+  background-color: rgba(255, 255, 255, 0.884);
+  box-shadow: 0 0 0 0 rgba(#5a99d4, .5);
+}
+.btn2:hover {
+  animation: pulse 1.5s; /* Animate for 1.5 seconds on hover */
+background-color: aliceblue;
+border-color:rgba(248, 0, 83, 0.884);
+color: rgba(2, 59, 97, 0.884);
+}
+
+
+
+
+.nb1{
+  background-color: rgb(2, 110, 129);
+  color: aliceblue;
+  text-decoration: none;
+  
+}
+
+.c1{
+  margin: 9px;
+}
